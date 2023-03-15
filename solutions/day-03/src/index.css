@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(226, 226, 226);
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.name {
+    font-weight: 600;
+}
+
+.skills {
+    display: flex;
+    gap: 5px;
+}
+
+.skill-item {
+    background-color: rgb(96, 224, 213);
+    color: white;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.join-date {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+#clock-icon {
+    width: 10px;
+}
